@@ -1,2 +1,12 @@
-# machine-learning-programming-assignment
-Programming assignments of Andrew Ng's machine learning course on Coursera
+Machine Learning Programming Assignment
+=======================================
+
+Finished:
+
+*   ex2
+*   ex3
+*   ex4
+
+TODO:
+
+*   ex6
