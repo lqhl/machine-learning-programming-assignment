@@ -27,7 +27,15 @@ centroids = zeros(K, n);
 %
 
 
+count = zeros(K);
+for i = 1:m
+    centroids(idx(i), :) += X(i, :);
+    count(idx(i)) += 1;
+end
 
+for i = 1:K
+    centroids(i, :) ./= count(i);
+end
 
 
 
